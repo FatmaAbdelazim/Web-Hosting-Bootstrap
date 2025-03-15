@@ -1,0 +1,20 @@
+
+ul{
+    list-style: none;
+}
+div>img{
+    height:520px;
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+.chrom{
+    opacity: .1;
+}
+.header{
+    height: 80px;
+}
+#con{
+    width: 100%;
+}

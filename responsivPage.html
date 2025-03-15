@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="p">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img src="images/tree.jpg" alt="Logo" width="44" height="24"
+                            class="d-inline-block align-text-top rounded-circle">
+                        <strong>Bootstrap</strong>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="#" class="nav-item nav-link active">Home</a>
+                            <a href="#" class="nav-item nav-link">Layouts</a>
+                            <a href="#" class="nav-item nav-link">Elements</a>
+                            <a href="#" class="nav-item nav-link">Blog</a>
+                            <a href="#" class="nav-item nav-link">Portfolio</a>
+                            <a href="#" class="nav-item nav-link">Contact Us </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </div>
+ 
+    </div>
+    <main>
+        <section>
+            <div class="row justify-content-center me-2 ms-2">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/p1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/p2.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/p3.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/p4.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <div class="row mt-5  justify-content-center">
+                    <div class="col-sm-12 col-md-4 bg-success  shadow text-white bg-opacity-75 text-center p-5">
+                        <a class="rounded-circle bg-success  p-2 text-dark bg-opacity-25 w-25 fs-1"><i
+                                class="fa-solid fa-thumbs-up  text-white  "></i></a>
+                        <h3>Secure & Reliable</h3>
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum porro, dicta
+                            blanditiis error
+                            aliquam laudantium voluptatibus cum explicabo et corporis.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 bg-success shadow text-white bg-opacity-75 text-center p-5">
+                        <a class="rounded-circle bg-success p-2 text-dark bg-opacity-25  w-75 fs-1"><i
+                                class="fa-solid fa-rocket text-white "></i></a>
+                        <h3>Quick & Super Fast</h3>
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum porro, dicta
+                            blanditiis error
+                            aliquam laudantium voluptatibus cum explicabo et corporis.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 bg-success shadow text-white bg-opacity-75 text-center p-5">
+                        <a class="rounded-circle bg-success p-2  text-dark bg-opacity-25  w-25 fs-1"><i
+                                class="fa-solid fa-comments text-white"></i></a>
+                        <h3>Customer Support</h3>
+                        <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum porro, dicta
+                            blanditiis error
+                            aliquam laudantium voluptatibus cum explicabo et corporis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row text-center justify-content-center  mt-5 bg-secondary bg-opacity-25 p-5">
+                    <h1>Hosts Plans & Pricing</h1>
+                    <p class=" mb-4">Lorem ipsum dolor sit amet</p>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Web Host</div>
+                        <div class="bg-secondary  bg-opacity-25 py-4">
+                            <div class="position-relative ">
+                                $
+                                <strong class="fs-1">4</strong>
+                                <p class="d-inline">/month</p>
+                                <strong class="position-absolute top-0 start-50">.45</strong>
+                            </div>
+                        </div>
+                        <div class="bg-white py-4">
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                        </div>
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Sing Up Now</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Web Host</div>
+                        <div class="bg-secondary  bg-opacity-25 py-4">
+                            <div class="position-relative ">
+                                $
+                                <strong class="fs-1">4</strong>
+                                <p class="d-inline">/month</p>
+                                <strong class="position-absolute top-0 start-50">.45</strong>
+                            </div>
+                        </div>
+                        <div class="bg-white py-4">
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                        </div>
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Sing Up Now</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Web Host</div>
+                        <div class="bg-secondary  bg-opacity-25 py-4">
+
+
+                            <div class="position-relative ">
+                                $
+                                <strong class="fs-1">4</strong>
+                                <p class="d-inline">/month</p>
+                                <strong class="position-absolute top-0 start-50">.45</strong>
+                            </div>
+                        </div>
+                        <div class="bg-white py-4 ">
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                        </div>
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Sing Up Now</div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Web Host</div>
+                        <div class="bg-secondary  bg-opacity-25 py-4">
+
+
+                            <div class="position-relative">
+                                $
+                                <strong class="fs-1">4</strong>
+                                <p class="d-inline">/month</p>
+                                <strong class="position-absolute top-0 start-50">.45</strong>
+                            </div>
+                        </div>
+                        <div class="bg-white py-4">
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                            <p><i class="fa-solid fa-check text-success"></i> <strong>10GB </strong>Lorem ipsum
+                                dolor sit</p>
+                        </div>
+                        <div class="bg-success bg-opacity-75 py-2 border-top rounded-2">Sing Up Now</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid bg-secondary-subtle p-2">
+                <div class="container p-2 mt-5">
+                    <div class="row text-center justify-content-center">
+                        <h1>Hosts Plans & Pricing</h1>
+                        <p class=" mb-4">Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-lg-3 col-md-5 col-sm-12 me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-11 me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-11 me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-11 me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-11  me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-11 me-2 mt-3">
+                            <div class="card bg-secondary bg-opacity-25">
+                                <div class="card-body">
+                                    <div class="border border-1 border-secondary p-2">
+                                        <div
+                                            class="rounded-circle bg-light d-flex flex-column w-25 position-absolute top-25  start-100  translate-middle ">
+                                            <span>starting</span>
+                                            <span class="text-danger">$ 195.7</span>
+                                            <span>/month</span>
+                                        </div>
+                                        <h5 class="card-title">Web Host</h5>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                                        sequi pariatur repellat dolores, dolorum eum?</p>
+                                    <a href="#" class="btn btn-light">Go somewhere</a>
+                                    <img src="images/card-laptop.svg" class="card-img-top card-img " alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-sm-10 border border-1 border-secondary  p-2  m-md-0">
+                        <img src="images/chrome.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 border border-1 border-secondary p-2 ">
+                        <img src="images/html.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 border border-1 border-secondary p-2">
+                        <img src="images/jquery.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 border border-1 border-secondary p-2 ">
+                        <img src="images/java.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 border border-1 border-secondary p-2">
+                        <img src="images/jquery.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 border border-1 border-secondary p-2">
+                        <img src="images/mysql.png" alt="" class="w-100 h-100 chrom">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid bg-secondary">
+            <div class="row justify-content-center container mt-3 text-center p-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sed sapiente atque tempore
+                        veniam earum magnam est quasi amet esse.</p>
+                    <p> <i class="fa-solid fa-house text-success"></i> 3344 Lorem, ipsum dolor.</p>
+                    <p> <i class="fa-solid fa-phone text-success"></i> 3344 Lorem, ipsum dolor.</p>
+                    <p> <i class="fa-solid fa-envelope text-success"></i> 3344 Lorem, ipsum dolor.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <h3>Navgation</h3>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <h3>Useful Links</h3>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12">
+                    <h4>Recent Posts</h4>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> lorem</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                    <p> <i class="fa-solid fa-arrow-right"></i> Web Hosting</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Tags</h3>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                    <button type="button" class="btn btn-success m-1">Primary</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
