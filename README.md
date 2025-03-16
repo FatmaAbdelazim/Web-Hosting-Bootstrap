@@ -15,4 +15,4 @@ This simple yet elegant template is ideal for web hosting companies, showcasing 
 
 - **HTML5**  
 - **CSS3**  
-- **Bootstrap 5** (for layout and responsiveness)  
+- **Bootstrap** (for layout and responsiveness)  
